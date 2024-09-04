@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+
+body {
+  background-color: #343131;
+}
+ion-title {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #container {
   text-align: center;
 
@@ -6,6 +20,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "JetBrains Mono", monospace;
 }
 
 #container strong {
@@ -24,4 +44,22 @@
 
 #container a {
   text-decoration: none;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 300px;
+  color: white;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#foto {
+  width: 200px;
+  height: 200px;
 }
